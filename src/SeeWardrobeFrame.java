@@ -48,7 +48,7 @@ public class SeeWardrobeFrame {
         this.frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.frame.setSize(350, 700);
         this.frame.setLocationRelativeTo(null);
-        this.frame.setResizable(true);
+        this.frame.setResizable(false);
 
         // Ylävalikko
         JMenuBar menuBar = new JMenuBar();
